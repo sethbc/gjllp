@@ -46,13 +46,14 @@ body {
 	padding: 0;
     margin-left: 0px;
     margin-right: 0px;
-	height: 78px;
+	height: 77px;
 	}
 
 #headerimg {
 	margin: 0;
-	height: 78px;
+	height: 77px;
 	padding: 0 0 0 45px;
+    padding-bottom: 2px;
     border-bottom: 1px solid silver;
 	}
 
@@ -260,9 +261,9 @@ body {
 
 .narrowcolumn {
 	float: left;
-	padding: 0 0 20px 45px;
+	padding: 0 0 20px 75px;
 	margin: 0px 0 0;
-	width: 740px;
+	width: 640px;
 	}
 
 .widecolumn {
@@ -273,7 +274,7 @@ body {
 
 .post {
 	margin: 0 0 40px;
-	text-align: justify;
+	text-align: left;
 	}
 
 .post hr {
@@ -619,8 +620,8 @@ td {
 #sidebar
 {
 	padding: 20px 0 10px 0;
-	margin-left: 845px;
-	width: 190px;
+	margin-left: 775px;
+	width: 250px;
 	}
 
 #sidebar form {
