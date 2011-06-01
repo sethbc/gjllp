@@ -1,10 +1,10 @@
 <?php
 
-$img = 'kubrickheader.jpg';
+$img = 'minimalismheader.jpg';
 
 // If we don't have image processing support, redirect.
 if ( ! function_exists('imagecreatefromjpeg') )
-	die(header("Location: kubrickheader.jpg"));
+	die(header("Location: minimalismheader.jpg"));
 
 // Assign and validate the color values
 $default = false;

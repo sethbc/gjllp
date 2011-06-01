@@ -8,7 +8,7 @@
 
 			<div class="post" id="post-<?php the_ID(); ?>">
 				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'minimalism'), the_title_attribute('echo=0')); ?>"><?php the_title(); ?></a></h2>
-				<small><?php the_time(__('F jS, Y', 'minimalism')) ?> <!-- by <?php the_author() ?> --></small>
+				<small><?php the_time(__('F jS, Y', 'minimalism')) ?> by <?php the_author() ?></small>
 
 				<div class="entry">
 					<?php the_content(__('Read the rest of this entry &raquo;', 'minimalism')); ?>
